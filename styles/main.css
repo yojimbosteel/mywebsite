@@ -1,0 +1,38 @@
+/* This is a style sheet for the main (first) page */
+
+* {margin: 0; padding: 0}
+
+body {
+       margin: 0px 0px 0px 5px; /* TRBL */ 
+       }
+
+p {
+    text-align: justify;
+    }
+p.three {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    }
+
+#topofpage {
+                  margin-left: 1in;
+                  margin-right: auto;
+                  width: 728px;
+                  background: #eeeeee;
+                  font-family: calibri, times, sans-serif;
+                  }
+
+#mainbox {
+                  padding-top: 0.125in;
+                  padding-left: 0.25in;
+                  padding-right: 0.25in;
+                  padding-bottom: 0.25in;
+                  }
+
+#boxtwo {  
+                  padding-top: 0.125in;
+                  padding-left: 0.25in;
+                  padding-right: 0.25in;
+                  padding-bottom: 0.25in;
+                  }
+
