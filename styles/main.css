@@ -7,11 +7,22 @@ body {
        }
 
 p {
+    color:#900000;
     text-align: justify;
     }
 p.three {
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    text-align: center;
+    }
+.three {
+    transform:rotate(-90deg);
+    /* Firefox */
+    -moz-transform:rotate(-90deg);
+    /* Opera */
+    -o-transform:rotate(-90deg);
+    /* Safari */
+    -webkit-transform:rotate(-90deg);
+    /* IE */
+    -ms-transform:rotate(-90deg);
     }
 
 #topofpage {
